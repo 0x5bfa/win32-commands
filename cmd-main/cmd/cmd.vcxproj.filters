@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source files\Internal Commands">
+      <UniqueIdentifier>{08243ca3-1293-438b-a37e-615a2084d1b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Internal Commands\Dir command">
+      <UniqueIdentifier>{aa6b4e3a-b4a9-4b6d-931e-006a0c2d3c8c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CmdInitialize.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="CmdMain.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="CmdMessage.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="AssocMain.c">
+      <Filter>Source files\Internal Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="ChDirMain.c">
+      <Filter>Source files\Internal Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="VerMain.c">
+      <Filter>Source files\Internal Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="VolMain.c">
+      <Filter>Source files\Internal Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="ClsMain.c">
+      <Filter>Source files\Internal Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorMain.c">
+      <Filter>Source files\Internal Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="ExitMain.c">
+      <Filter>Source files\Internal Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="DirMain.c">
+      <Filter>Source files\Internal Commands\Dir command</Filter>
+    </ClCompile>
+    <ClCompile Include="DirParser.c">
+      <Filter>Source files\Internal Commands\Dir command</Filter>
+    </ClCompile>
+    <ClCompile Include="ChCpMain.c">
+      <Filter>Source files\Internal Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="DateMain.c">
+      <Filter>Source files\Internal Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleMain.c">
+      <Filter>Source files\Internal Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="MkDir.c">
+      <Filter>Source files\Internal Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="PauseMain.c">
+      <Filter>Source files\Internal Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="EchoMain.c">
+      <Filter>Source files\Internal Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="PromptMain.c">
+      <Filter>Source files\Internal Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="FTypeMain.c">
+      <Filter>Source files\Internal Commands</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Cmd.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="CmdMessage.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dir.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="CommonRes.res">
+      <Filter>Resource files</Filter>
+    </Resource>
+  </ItemGroup>
+</Project>

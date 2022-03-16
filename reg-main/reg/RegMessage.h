@@ -1,0 +1,186 @@
+// Copyright (c) 2021 WindowsCommands
+// Licensed under the MIT License.
+
+// Temporary message definition
+
+#define MSG_HELP_REG                     ((DWORD)0x00000002L)
+
+#define MSG_HELP_REG_ADD_1               ((DWORD)0x00000004L)
+
+#define MSG_HELP_REG_ADD_2               ((DWORD)0x00000005L)
+
+#define MSG_HELP_REG_DELETE              ((DWORD)0x00000006L)
+
+#define MSG_HELP_REG_COPY                ((DWORD)0x00000007L)
+
+#define MSG_HELP_REG_SAVE                ((DWORD)0x00000008L)
+
+#define MSG_HELP_REG_RESTORE             ((DWORD)0x00000009L)
+
+#define MSG_HELP_REG_LOAD                ((DWORD)0x0000000AL)
+
+#define MSG_HELP_REG_UNLOAD              ((DWORD)0x0000000BL)
+
+#define MSG_HELP_REG_COMPARE_1           ((DWORD)0x0000000CL)
+
+#define MSG_HELP_REG_COMPARE_2           ((DWORD)0x0000000DL)
+
+#define MSG_HELP_REG_EXPORT              ((DWORD)0x0000000EL)
+
+#define MSG_HELP_REG_IMPORT              ((DWORD)0x0000000FL)
+
+#define MSG_HELP_REG_FLAGS               ((DWORD)0x00000010L)
+
+//////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////
+
+#define MSG_INVALID_SYNTAX_REG           ((DWORD)0x00000065L)
+
+#define MSG_INVALID_PARAMS_GET_USAGE     ((DWORD)0x00000066L)
+
+#define MSG_INVALID_SYNTAX_REG_OP        ((DWORD)0x00000067L)
+
+#define MSG_INVALID_KEY_NAME             ((DWORD)0x00000068L)
+
+#define MSG_NON_REMOTABLE_ROOT           ((DWORD)0x00000069L)
+
+#define MSG_NON_LOADABLE_ROOT            ((DWORD)0x0000006AL)
+
+#define MSG_NOT_ENOUGH_MEMORY            ((DWORD)0x0000006BL)
+
+#define MSG_NON_EDITABLE_REGISTRY        ((DWORD)0x0000006CL)
+
+#define MSG_INVALID_KEY_ON_FLAGS         ((DWORD)0x0000006DL)
+
+#define MSG_INVALID_NUMERIC_ON_ADD       ((DWORD)0x00000079L)
+
+#define MSG_INVALID_HEX_ON_ADD           ((DWORD)0x0000007AL)
+
+#define MSG_INVALID_SPECIFIED_VALUE      ((DWORD)0x0000007BL)
+
+#define MSG_ERROR_COPY_TO_SELF           ((DWORD)0x00000083L)
+
+#define MSG_DELETE_PARTIALLY_COMPLETE    ((DWORD)0x0000008DL)
+
+#define MSG_ERROR_COMPARE_SELF           ((DWORD)0x00000097L)
+
+#define MSG_ACCESS_DENIED                ((DWORD)0x000000A1L)
+
+#define MSG_NON_REMOTABLE_ON_EXPORT      ((DWORD)0x000000ABL)
+
+#define MSG_NON_REMOTABLE_ON_FLAGS       ((DWORD)0x000000ACL)
+
+#define MSG_REG_PATH_NOT_FOUND           ((DWORD)0x000000BFL)
+
+#define MSG_ARE_YOU_SURE_DELETE          ((DWORD)0x000000C9L)
+
+#define MSG_VALUE_OVERWRITE_YES_NO       ((DWORD)0x000000CAL)
+
+#define MSG_VALUE_OVERWRITE_YES_NO_ALL   ((DWORD)0x000000CBL)
+
+#define MSG_ARE_YOU_SURE_DELETE_ALL      ((DWORD)0x000000CCL)
+
+#define MSG_ARE_YOU_SURE_DELETE_VALUE    ((DWORD)0x000000CDL)
+
+#define MSG_YES_NO_ALL                   ((DWORD)0x000000CEL)
+
+#define MSG_FILE_OVERWRITE_YES_NO        ((DWORD)0x000000CFL)
+
+#define MSG_HELP_REG_QUERY_1             ((DWORD)0x0000012DL)
+
+#define MSG_HELP_REG_QUERY_2             ((DWORD)0x0000012EL)
+
+#define MSG_HELP_REG_QUERY_3             ((DWORD)0x0000012FL)
+
+#define MSG_DEFAULT                      ((DWORD)0x000001F5L)
+
+#define MSG_VALUE_NOT_SET                ((DWORD)0x000001F6L)
+
+#define MSG_COMPARE_RESULT_DIFF          ((DWORD)0x000001FFL)
+
+#define MSG_COMPARE_RESULT_IDENT         ((DWORD)0x00000200L)
+
+#define MSG_DISPLAY_VALUE                ((DWORD)0x00000201L)
+
+#define MSG_DISPLAY_KEY                  ((DWORD)0x00000202L)
+
+#define MSG_MATCH_RESULT                 ((DWORD)0x00000209L)
+
+#define MSG_DISPLAY_TYPE                 ((DWORD)0x0000020FL)
+
+#define MSG_DISPLAY_DATA                 ((DWORD)0x00000210L)
+
+#define MSG_ERROR_FILE_OPEN              ((DWORD)0x000002BEL)
+
+#define MSG_ERROR_FILE_READ              ((DWORD)0x000002BFL)
+
+#define MSG_ERROR_REG_OPEN               ((DWORD)0x000002C0L)
+
+#define MSG_ERROR_DATA_SET               ((DWORD)0x000002C1L)
+
+#define MSG_NOT_REG_FORMAT_FILE          ((DWORD)0x000002C2L)
+
+#define MSG_ERROR_VERSION_INCORRECT      ((DWORD)0x000002C3L)
+
+#define MSG_ERROR_KEY_OPEN               ((DWORD)0x000002C4L)
+
+#define MSG_IVALID_SELECTED_KEY          ((DWORD)0x00000321L)
+
+#define MSG_ERROR_FILE_WRITE             ((DWORD)0x00000322L)
+
+#define MSG_DISPLAY_ERROR                ((DWORD)0x00001389L)
+
+#define MSG_DISPLAY_WARNING              ((DWORD)0x0000138AL)
+
+#define MSG_DISPLAY_SUCCESS              ((DWORD)0x0000138BL)
+
+#define MSG_DISPLAY_INFO                 ((DWORD)0x0000138CL)
+
+#define MSG_DISPLAY_NOT_AVAILABLE        ((DWORD)0x0000138DL)
+
+#define MSG_TYPE_PASSWORD                ((DWORD)0x0000157DL)
+
+#define MSG_PASSING_USER_CREDENTIAL      ((DWORD)0x0000157EL)
+
+#define MSG_UNRUNNABLE_TARGET_SYSTEM     ((DWORD)0x0000157FL)
+
+#define MSG_UNRUNNABLE_REMOTE_SYSTEM     ((DWORD)0x00001580L)
+
+#define MSG_BAD_VALUE_THIS_OPTION        ((DWORD)0x000015E1L)
+
+#define MSG_INVALID_NUMERIC_VALUE        ((DWORD)0x000015E2L)
+
+#define MSG_INVALID_FLOAT_VALUE          ((DWORD)0x000015E3L)
+
+#define MSG_MISSING_MANDATORY_OPTION     ((DWORD)0x000015E4L)
+
+#define MSG_TOO_MANY_TIMES               ((DWORD)0x000015E5L)
+
+#define MSG_INVALID_PARAM                ((DWORD)0x000015E7L)
+
+#define MSG_MISSING_DEFAULT_PARAM        ((DWORD)0x000015E8L)
+
+#define MSG_TOO_MANY_PARAMS              ((DWORD)0x000015E9L)
+
+#define MSG_TOO_MANY_TIMES_DEFAULT       ((DWORD)0x000015EAL)
+
+#define MSG_INVALID_VALUE_EXPECTED       ((DWORD)0x000015EBL)
+
+#define MSG_INVALID_VALUE_AS_DEFAULT     ((DWORD)0x000015ECL)
+
+#define MSG_GET_USAGE                    ((DWORD)0x000015EDL)
+
+#define MSG_CANNOT_BE_EMPTY              ((DWORD)0x000015EEL)
+
+#define MSG_CANNOT_BE_EMPTY_DEFAULT      ((DWORD)0x000015EFL)
+
+#define MSG_INVALID_NUMERIC_VALUE_DFT    ((DWORD)0x000015F0L)
+
+#define MSG_INVALID_FLOAT_VALUE_DFT      ((DWORD)0x000015F1L)
+
+#define MSG_TOO_MANY_VALUE_LENGTH_DFT    ((DWORD)0x000015F2L)
+
+#define MSG_CANNOT_SPECIFY_THIS_OPTION   ((DWORD)0x000015F3L)
+
+#define MSG_TOO_MANY_VALUE_LENGTH        ((DWORD)0x000015F4L)
+

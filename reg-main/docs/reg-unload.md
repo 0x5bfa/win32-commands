@@ -1,0 +1,39 @@
+# Reg unload Parameter
+
+Removes a section of the registry that was loaded using the reg load operation.
+
+## Syntax
+
+```
+reg unload <keyname>
+```
+
+## Parameters
+
+Parameter | Description
+\<keyname> | Specifies the full path of the subkey. To specify a remote computer, include the computer name (in the format \\\\<computername>\\) as part of the keyname. Omitting \\\\<computername>\\ causes the operation to default to the local computer. The keyname must include a valid root key. Valid root keys for the local computer are: `HKLM`, `HKCU`, `HKCR`, `HKU`, and `HKCC`. If a remote computer is specified, valid root keys are: `HKLM` and `HKU`. If the registry key name contains a space, enclose the key name in quotes.
+/? | Displays help at the command prompt.
+
+## Remarks
+The return values for the reg unload operation are:
+
+Value | Description
+--- | ---
+0 | Success
+1 | Failure
+
+## Examples
+
+To unload the hive `TempHive` in the file `HKLM`, type:
+
+```
+reg unload HKLM\TempHive
+```
+
+> **Caution**<br>Don't edit the registry directly unless you have no alternative. The registry editor bypasses standard safeguards, allowing settings that can degrade performance, damage your system, or even require you to reinstall Windows. You can safely alter most registry settings by using the programs in Control Panel or Microsoft Management Console (MMC). If you must edit the registry directly, back it up first.
+
+## Additional References
+
+* Command-Line Syntax Key
+
+* reg load command

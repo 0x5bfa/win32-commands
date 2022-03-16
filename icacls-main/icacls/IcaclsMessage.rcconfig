@@ -1,0 +1,12 @@
+<!-- Copyright (c) 2021 WindowsCommands -->
+<!-- Licensed under the MIT License. -->
+<?xml version="1.0" encoding="utf-8"?>
+<localization>
+  <resources>
+    <win32Resources fileType="Application">
+      <localizedResources>
+        <resourceType typeNameId="#11"/> <!-- MESSAGETABLE -->
+      </localizedResources>
+    </win32Resources>
+  </resources>
+</localization>
