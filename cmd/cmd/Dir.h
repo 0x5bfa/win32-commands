@@ -1,4 +1,4 @@
-// Copyright (c) 2021 WindowsCommands
+// Copyright (c) 2021 onein528
 // Licensed under the MIT License.
 
 #define DIR_SWITCH_SPECIFIES_ATTRIBUTES             0x0001  // /A

@@ -1,4 +1,4 @@
-// Copyright (c) 2021 WindowsCommands
+// Copyright (c) 2021 onein528
 // Licensed under the MIT License.
 
 #include "Tree.h"
@@ -94,7 +94,7 @@ BOOL WalkDirectoryTree(DWORD dwSwitches, LPWSTR lpSpecifiedPath, DWORD dwRecursi
         }
         else {
 
-            StrCpyW(lpcStructureChars, L"„ „¥„¤„Ÿ");
+            StrCpyW(lpcStructureChars, L"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
         }
     }
 
