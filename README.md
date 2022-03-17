@@ -1,6 +1,8 @@
 # 🤖WindowsCommands
 
-Re-productized group of win32 commands included in windows
+Re-productized group of win32 commands included in windows.
+
+`Transfered from WindowsCommands organization I owned. Common files(like BuildMUI.bat) are more easily handled by consolidating them in a single repository.`
 
 ## License
 
