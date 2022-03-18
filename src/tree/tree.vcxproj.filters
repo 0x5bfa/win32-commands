@@ -14,4 +14,20 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TreeMain.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="TreeMessage.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Tree.h">
+      <Filter>Hearder files</Filter>
+    </ClInclude>
+    <ClInclude Include="TreeMessage.h">
+      <Filter>Hearder files</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>
