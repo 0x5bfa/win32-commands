@@ -28,6 +28,9 @@
   <ItemGroup>
     <ResourceCompile Include="Attrib.rc" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Attrib.mc" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>

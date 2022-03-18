@@ -32,4 +32,9 @@
       <Filter>Resource files</Filter>
     </ResourceCompile>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Attrib.mc">
+      <Filter>Resource files</Filter>
+    </None>
+  </ItemGroup>
 </Project>
