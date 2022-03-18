@@ -18,6 +18,13 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Attrib.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AttribDisplay.c" />
+    <ClCompile Include="AttribMain.c" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>

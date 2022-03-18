@@ -14,4 +14,77 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AssocMain.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="ChCpMain.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="ChDirMain.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClsMain.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="CmdInitialize.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="CmdMain.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="CmdMessage.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorMain.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="DateMain.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="DirMain.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="DirParser.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="EchoMain.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="ExitMain.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="FTypeMain.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="MkDir.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="PauseMain.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="PromptMain.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleMain.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="VerMain.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="VolMain.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Dir.h">
+      <Filter>Hearder files</Filter>
+    </ClInclude>
+    <ClInclude Include="CmdMessage.h">
+      <Filter>Hearder files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cmd.h">
+      <Filter>Hearder files</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>

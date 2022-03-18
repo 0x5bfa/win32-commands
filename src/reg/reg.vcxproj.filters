@@ -14,4 +14,47 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="RegAdd.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="RegDelete.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="RegExport.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="RegLoad.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="RegMain.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="RegMessage.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="RegParse.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="RegQuery.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="RegRestore.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="RegSave.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="RegUnLoad.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="RegMain.h">
+      <Filter>Hearder files</Filter>
+    </ClInclude>
+    <ClInclude Include="RegMessage.h">
+      <Filter>Hearder files</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>

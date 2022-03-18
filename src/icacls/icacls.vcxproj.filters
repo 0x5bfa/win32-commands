@@ -14,4 +14,44 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DisplaySecInfo.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="FindAccount.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="FindFile.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="FindSid.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="IcaclsMain.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="IcaclsMessage.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="RestoreSecDesc.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveSecDesc.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="SetFileOwner.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="VerifySecDesc.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="icacls.h">
+      <Filter>Hearder files</Filter>
+    </ClInclude>
+    <ClInclude Include="IcaclsMessage.h">
+      <Filter>Hearder files</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>
