@@ -17,6 +17,12 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "reg", "src\reg\reg.vcxproj"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "shutdown", "src\shutdown\shutdown.vcxproj", "{7F0B3FDF-1D87-403C-8A61-901DACEA6268}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "shared", "shared", "{3F0853C0-216A-4CD9-8E62-5C7B846F2EF2}"
+	ProjectSection(SolutionItems) = preProject
+		common.ver.rc = common.ver.rc
+		muibuilder.bat = muibuilder.bat
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
