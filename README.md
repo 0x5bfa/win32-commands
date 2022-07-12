@@ -1,24 +1,13 @@
-# 🤖WindowsCommands
+<h1 align="center">
+  Windows command processor
+</h1>
+<p align="center">
+  Re-productized group of win32 commands included in windows.
+</p>
 
-Re-productized group of win32 commands included in windows.
-
-`Transfered from WindowsCommands organization I owned. Common files(like BuildMUI.bat) are more easily handled by consolidating them in a single repository.`
+> **Warning**<br/>Transfered from WindowsCommands organization wthat I used to own. To be more mantainable, gethered to this repository
 
 ## License
 
-Licensed under the MIT License.
-
-## Development status
-
-### Internal commands
-
-name|status
----|---
-...|...
-
-### External commands
-
-name|status
----|---
-...|...
-
+Copyright (c) 2020-2022 onein528
+Licensed under the [MIT License](LICENSE).
